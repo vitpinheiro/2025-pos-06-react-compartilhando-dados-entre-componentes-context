@@ -42,12 +42,12 @@
    - `src/data` para os recursos e dados compartilhados na aplicação, nesta atividade, para o contexto de tarefas
      - `src/data/ContextTarefa.tsx` contendo os recursos para o provedor de contexto de tarefas
    - `src/app` para as páginas
-      - `src/app/pages.tsx` contendo a página de home
+      - `src/app/page.tsx` contendo a página de home
       - `src/app/layout.tsx` contendo o layout da aplicação
-      - `src/app/tarefas/pages.tsx` contendo a lista de tarefas. Lembrar de:
+      - `src/app/tarefas/page.tsx` contendo a lista de tarefas. Lembrar de:
         - se ainda vai iniciar a tela, usar diretamente os dados no jsx e depois mudar para uso de constante
         - por fim, se já aproveitou o componente do projeto anterior é só mudar de `useState` para `useContext`, usar contexto
-      - `src/app/tarefas/nova/pages.tsx` com um formulário para preencher e confirma a adição de tarefa nova
+      - `src/app/tarefas/nova/page.tsx` com um formulário para preencher e confirma a adição de tarefa nova
    - `src/types` para os tipos utilizados na aplicação
       - `src/types/tarefa.ts` contendo os diversos tipos referente a tarefa e lista de tarefas
 5. Lembrar que as atividades devem ser inicialmente carregadas de https://dummyjson.com/docs/todos
